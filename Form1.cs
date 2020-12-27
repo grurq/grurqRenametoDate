@@ -38,9 +38,8 @@ namespace RenametoDate
             
             linkLabel1.Links.Add(0, linkLabel1.Text.Length, "https://grurq.github.io/");
             linkLabel2.Links.Add(0, linkLabel2.Text.Length, "https://grurq.github.io/grurqRenametoDate.html");
-            linkLabel3.Links.Add(0, linkLabel3.Text.Length, "https://grurq.github.io/grurqRenametoDate-history.html");
             linkLabel4.Links.Add(0, linkLabel4.Text.Length, "https://opensource.org/licenses/mit-license.php");
-            linkLabel5.Links.Add(0, linkLabel5.Text.Length, "https://ja.osdn.net/projects/opensource/wiki/licenses%2FMIT_license");
+            linkLabel5.Links.Add(0, linkLabel5.Text.Length, "https://licenses.opensource.jp/");
 
             rnfiles rn = new rnfiles(Properties.Settings.Default.label, Properties.Settings.Default.front, Properties.Settings.Default.make);
 
@@ -56,11 +55,6 @@ namespace RenametoDate
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start(linkLabel1.Links[0].LinkData.ToString());
-        }
-
-        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(linkLabel3.Links[0].LinkData.ToString());
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

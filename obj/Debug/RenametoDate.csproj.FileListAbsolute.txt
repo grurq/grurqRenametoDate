@@ -1,0 +1,8 @@
+E:\Gateway\repos\grurq\grurqRenametoDate\obj\Debug\RenametoDate.csprojAssemblyReference.cache
+E:\Gateway\repos\grurq\grurqRenametoDate\obj\Debug\RenametoDate.Form1.resources
+E:\Gateway\repos\grurq\grurqRenametoDate\obj\Debug\RenametoDate.Properties.Resources.resources
+E:\Gateway\repos\grurq\grurqRenametoDate\obj\Debug\RenametoDate.csproj.GenerateResource.cache
+E:\Gateway\repos\grurq\grurqRenametoDate\bin\Debug\grurqRenametoDate.exe
+E:\Gateway\repos\grurq\grurqRenametoDate\bin\Debug\grurqRenametoDate.pdb
+E:\Gateway\repos\grurq\grurqRenametoDate\obj\Debug\grurqRenametoDate.exe
+E:\Gateway\repos\grurq\grurqRenametoDate\obj\Debug\grurqRenametoDate.pdb

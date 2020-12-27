@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
@@ -43,6 +42,7 @@
             this.product = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -53,7 +53,6 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.label2 = new System.Windows.Forms.Label();
             this.tabPage3.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -68,7 +67,6 @@
             this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Controls.Add(this.linkLabel1);
             this.tabPage3.Controls.Add(this.textBox1);
-            this.tabPage3.Controls.Add(this.linkLabel3);
             this.tabPage3.Controls.Add(this.linkLabel2);
             this.tabPage3.Controls.Add(this.linkLabel5);
             this.tabPage3.Controls.Add(this.linkLabel4);
@@ -94,7 +92,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(84, 249);
+            this.label4.Location = new System.Drawing.Point(209, 249);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 12);
             this.label4.TabIndex = 10;
@@ -113,7 +111,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("MS UI Gothic", 9F);
-            this.linkLabel1.Location = new System.Drawing.Point(152, 249);
+            this.linkLabel1.Location = new System.Drawing.Point(277, 249);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(32, 12);
             this.linkLabel1.TabIndex = 0;
@@ -134,23 +132,11 @@
             this.textBox1.TabIndex = 8;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
-            // linkLabel3
-            // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Font = new System.Drawing.Font("MS UI Gothic", 9F);
-            this.linkLabel3.Location = new System.Drawing.Point(250, 249);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(119, 12);
-            this.linkLabel3.TabIndex = 3;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "更新履歴と既知の問題";
-            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
-            // 
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Font = new System.Drawing.Font("MS UI Gothic", 9F);
-            this.linkLabel2.Location = new System.Drawing.Point(190, 249);
+            this.linkLabel2.Location = new System.Drawing.Point(315, 249);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(54, 12);
             this.linkLabel2.TabIndex = 2;
@@ -234,6 +220,15 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ラベル";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(16, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(259, 12);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "テキスト欄に文字を入力するとファイルに命名されます。";
             // 
             // label6
             // 
@@ -343,15 +338,6 @@
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 8;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 24);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(259, 12);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "テキスト欄に文字を入力するとファイルに命名されます。";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -384,7 +370,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel5;
         private System.Windows.Forms.LinkLabel linkLabel4;
